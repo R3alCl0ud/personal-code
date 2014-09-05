@@ -1,0 +1,91 @@
+package installer;
+
+import java.awt.*;
+import java.awt.event.*;
+
+import javax.swing.*;
+
+import java.io.*;
+import java.nio.file.*;
+import java.net.*;
+
+
+public class main extends JPanel implements ActionListener{
+	static private final String newline = ("\n");
+	JButton Install, Download;
+	JFileChooser fc;
+	JTextArea log;
+	
+	
+	
+	
+	public main(){
+		super(new BorderLayout());
+		
+		JButton Install = new JButton("Install Modpack");
+		Install.addActionListener(this);
+		
+		JButton Download = new JButton("Download to Downloads folder");
+		Download.addActionListener(this);
+		
+		fc = new JFileChooser();
+		
+		JPanel installer = new JPanel();
+		installer.add(Install);
+		installer.add(Download);
+		
+			
+		add(installer, BorderLayout.CENTER);
+		}
+	
+	
+	public static void CreateAndShowGUI() {
+		
+	JFrame frame = new JFrame("SSGN Modpack Installer");
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	
+	frame.add(new main());
+	
+	frame.pack();
+	frame.setVisible(true);
+	
+	
+	}
+	
+	public static void main(String[] args) {	
+	javax.swing.SwingUtilities.invokeLater(new Runnable() {
+		public void run() {
+			 UIManager.put("swing.boldMetal", Boolean.FALSE); 
+			CreateAndShowGUI();
+		}
+		
+	});
+	}
+
+	
+		
+	
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+	
+		if(e.getSource() == Install) {
+			int returnVal = fc.showSaveDialog(main.this);
+			if (returnVal == JFileChooser.APPROVE_OPTION) {
+				File file = fc.getSelectedFile();
+				
+				log.append("Saveing: " + file.getName() + "." + newline);
+			} else {
+				log.append("Save command cancelled by user." + newline);
+			}
+			log.setCaretPosition(log.getDocument().getLength());									
+		}
+			}
+			
+		
+		
+		
+		
+	
+	}
+

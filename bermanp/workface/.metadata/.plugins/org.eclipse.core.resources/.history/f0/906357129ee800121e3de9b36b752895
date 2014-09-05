@@ -1,0 +1,6 @@
+import net.minecraft.itme.Item
+
+
+public class frag extends Item{
+
+}

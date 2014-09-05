@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+
+public class calculator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		float number1;
+		float number2;
+		float result;		
+		int option
+		
+		System.out.println("choose your first number");
+		number1 input.nextfloat
+
+	}
+
+}

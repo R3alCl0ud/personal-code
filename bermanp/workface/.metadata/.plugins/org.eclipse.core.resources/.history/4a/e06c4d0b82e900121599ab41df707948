@@ -1,0 +1,9 @@
+import Hello_Math.src.VurtualpetEngine;
+public class Pets {
+
+	String name;
+	String type;
+	String color;
+
+	}
+

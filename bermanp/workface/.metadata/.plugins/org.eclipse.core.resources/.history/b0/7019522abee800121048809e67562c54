@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB2887595" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=2887595" creationTimeStamp="2013-10-25T08:51:41Z" lastUpdateTimeStamp="2013-10-25T08:51:41Z">
+	<assemblyIdentity name="Package_250_for_KB2887595" version="6.3.2.0" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB2887595" releaseType="Update" restart="possible" psfName="Windows8.1-KB2887595-v2-x64.psf">
+		<parent buildCompare="EQ" serviceCompare="EQ" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-Windows-GroupPolicy-ClientTools-Package-windows" language="neutral" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+		</parent>
+		<installerAssembly name="Microsoft-Windows-ServicingStack" version="6.0.0.0" language="neutral" processorArchitecture="amd64" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35"/>
+		<update name="2887595-476_neutral_GDR">
+			<applicable disposition="staged">
+				<updateComponent elevate="distribution">
+					<assemblyIdentity name="Microsoft-Windows-ErrorReporting-Adm" version="6.3.9600.16404" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>

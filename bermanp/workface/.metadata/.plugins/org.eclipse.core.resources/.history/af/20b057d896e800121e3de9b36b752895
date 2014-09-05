@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+
+
+ 
+public class wut {
+	
+	
+	public static void main(String[] args) {
+	
+		String yes;
+		
+		
+		
+		System.out.println("Wut is awesome? ");    
+		 yes = input.nextLine();
+	
+	boolean me = true;
+	if(me) {
+		
+	}
+		
+	
+	
+	
+	
+	}
+	
+}

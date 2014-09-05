@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<StandardFilters Version="1">
+		<DeinterlaceState>false</DeinterlaceState>
+		<CropType>0</CropType>
+		<CropRect>0,0,0,0</CropRect>
+		<CropState>false</CropState>
+	</StandardFilters>
+	<DoEmulation>false</DoEmulation>
+	<DoVideo>true</DoVideo>
+	<DoAudio>false</DoAudio>
+	<PresetID>be2059ac-777f-4165-a030-0532f8a52bfa</PresetID>
+	<ExportParamContainer ObjectRef="1"/>
+	<ExporterFileType>1146116128</ExporterFileType>
+	<ExporterClassID>1061109567</ExporterClassID>
+	<ExporterName></ExporterName>
+	<PresetComments>($$$/AME/EncoderHost/Presets/be2059ac-777f-4165-a030-0532f8a52bfa/PresetComments=4096 x 2048 DPX Sequence at 23.976)</PresetComments>
+	<PresetName>($$$/AME/EncoderHost/Presets/be2059ac-777f-4165-a030-0532f8a52bfa/PresetName=4096 x 2048 24p Video (max bit depth))</PresetName>
+	<FolderDisplayPath>System Presets/Image Sequence/DPX</FolderDisplayPath>
+	<ExporterParamContainer ObjectID="1" ClassID="5c20a4a5-5e7c-4032-85b8-26ad4531fe7b" Version="1">
+		<ContainedParamsVersion>1</ContainedParamsVersion>
+		<ParamContainerItems Version="1">
+			<ParamContainerItem Index="0" ObjectRef="2"/>
+		</ParamContainerItems>
+	</ExporterParamContainer>
+	<ExporterParam ObjectID="2" ClassID="9f049ab7-d48f-43e9-a8ca-4d7f21233625" Version="1">
+		<ParamTargetBitrate>0</ParamTargetBitrate>
+		<ParamTargetID>0</ParamTargetID>
+		<ParamAuxType></ParamAuxType>
+		<ParamAuxValue></ParamAuxValue>
+		<ExporterChildParams ObjectRef="3"/>
+		<ParamName></ParamName>
+		<ParamIdentifier>0</Par

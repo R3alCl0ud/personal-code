@@ -1,0 +1,18 @@
+
+public class seasonchecker {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		
+		String day = "Monday";
+		if(day.equals("Sunday")  ||  day.equals("SaturDay")){
+		System.out.println("its the weekend");}
+		
+		else { 
+			System.out.println("its not teh weekend yet")
+		}
+}
+}

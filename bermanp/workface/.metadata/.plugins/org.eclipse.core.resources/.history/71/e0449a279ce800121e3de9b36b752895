@@ -1,0 +1,30 @@
+
+
+
+
+ 
+public class wut {
+
+
+	public static void main(String[] args) {
+		
+		
+	int a = 1;
+	int b = 1;
+		
+	
+	
+	if(a == b) {
+		System.out.println("NO YOUR NOT. I AM");}
+	
+	
+	
+	else{
+	System.out.println("NO. YOU ARE");
+	
+	
+	}
+	
+}
+	}
+

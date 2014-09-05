@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+public class seasonchecker {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		String day;
+		
+		
+		System.out.println("wut day of the week is it");
+		day = input.nextLine();
+		
+		if(day.equals("SunDay")  ||  day.equals("SaturDay")){
+		System.out.println("its teh weekend");}
+		
+		else { 
+			System.out.println("its not teh weekend yet");
+		}
+}
+}

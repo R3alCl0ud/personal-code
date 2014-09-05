@@ -1,0 +1,18 @@
+
+public class Hellomath {
+	
+	 public static void main(String[] args) {
+	
+	//Declaring numeric variables
+	int number1;
+	int number2;
+	int result; 
+
+
+	//Assigning values
+	number1 = 232323485;
+	number2 = 451345234;
+	result = number1 * number2;
+	 System.out.println(number1 + " * " + number2 + " = " + result);
+}
+}

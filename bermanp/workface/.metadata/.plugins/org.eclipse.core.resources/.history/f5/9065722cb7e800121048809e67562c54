@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+
+
+public class calculator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		float number1;
+		float number2;
+		float result;		
+		int option;
+		
+		System.out.println("choose your first number");
+		number1 = input.nextFloat();
+		
+		System.out.println("choose your second number");
+		number2 = input.nextFloat();
+
+		
+		
+		
+		System.out.println(" ");
+		System.out.println("====menu====");
+		Systme.out.println("   ");
+	}
+
+}

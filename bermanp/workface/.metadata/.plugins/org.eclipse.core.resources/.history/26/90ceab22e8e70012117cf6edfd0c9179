@@ -1,0 +1,11 @@
+
+public class hello {
+
+	
+	
+	/**
+	 * @param arg
+	 */
+	public static void main(String[] agrs) {
+}
+}

@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+@SuppressWarnings("unused")
+public class RUN {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			
+		
+		String names[] = new String[8];
+		@SuppressWarnings("resource")
+		Scanner input = new Scanner(System.in);
+	
+	
+	
+	
+	
+	
+	
+	
+		for (int index = 0; index < names.length; index++){
+			
+			
+			
+			
+			System.out.println("enter # here? ");
+			names[index] = input.next();
+		}
+	}
+	
+}

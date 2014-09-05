@@ -1,0 +1,22 @@
+
+public class varables {
+
+	public static void main(String[] args) {
+		char last_initial;
+		String name;
+		String email;
+		
+		int age;
+		float weight;
+		
+		
+		last_initial = "B";
+		name = "Perry";
+		email = "cloudioa@gmail.com";
+		
+	
+		
+		
+		
+	}
+}

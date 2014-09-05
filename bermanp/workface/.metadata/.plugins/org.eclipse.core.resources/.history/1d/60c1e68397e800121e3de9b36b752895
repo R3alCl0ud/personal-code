@@ -1,0 +1,33 @@
+
+import java.util.Scanner;
+
+
+ 
+public class wut {
+	
+	
+	private static final boolean me = false;
+
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		@SuppressWarnings("resource")
+		Scanner input = new Scanner(System.in);
+		String yes;
+		
+		
+		
+		System.out.println("Wut is awesome? ");    
+		 yes = input.nextLine();
+	
+	
+	if(me == true) {
+		System.out.println("NO YOUR NOT. I AM");    
+	}
+		
+	
+	
+	
+	
+	}
+	
+}

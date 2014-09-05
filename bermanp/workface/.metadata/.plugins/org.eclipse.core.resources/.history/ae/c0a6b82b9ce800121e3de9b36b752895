@@ -1,0 +1,36 @@
+
+
+
+
+ 
+public class wut {
+
+
+	public static void main(String[] args) {
+		
+		
+	int a = 1;
+	int b = 1;
+		
+	
+	
+	if(a == b) {
+		System.out.println("1 = 1");}
+	
+	
+	
+	else{
+	System.out.println("THIS IS WRONG");
+	
+	
+	}
+	if(a > b){
+		System.out.println("1 is greater then 2");
+	
+	}
+	else {
+		System.out.println("1 is less then 2");
+	}
+	}
+}
+
