@@ -1,0 +1,33 @@
+package the_package;
+
+import java.util.Random;
+
+public class Bubble_Sort {
+
+	static Random rnd = new Random();
+	static int[] numba = new int[50];
+	static int i = 0;
+	
+	
+	public static void main(String[] args) 
+	{
+		numba[0] = 0;
+		for (int i = 0; i < numba.length; i++) 
+		{	
+			int transit = 0;
+			numba[i] = rnd.nextInt(101);
+			System.out.println(numba[i]+ " | ");
+			if (numba[i-1] > numba[i]) {
+				
+				transit = numba[i-1];
+				numba[i-1] = numba[i];
+				numba[i] = transit;
+			}
+			else
+				;
+			
+			
+		}
+	}
+
+}

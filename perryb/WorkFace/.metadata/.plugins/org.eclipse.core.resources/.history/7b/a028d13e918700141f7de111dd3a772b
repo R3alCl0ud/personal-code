@@ -1,0 +1,66 @@
+package installer;
+
+import java.io.*;
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.awt.Toolkit;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.StringTokenizer;
+
+import javax.swing.JOptionPane;
+
+public class installUtil {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+public static void copyFile(File fileSrc, File fileDest) throws IOException {
+	
+	if (fileSrc.getCanonicalPath().equals(fileDest.getCanonicalPath())) {
+		return;
+	}
+	FileInputStream fin = new FileInputStream(fileSrc);
+	FileOutputStream fout = new FileOutputStream(fileDest);
+	copyAll(fin, fout);
+	
+	fout.flush();
+	
+	fin.close();
+	fout.close();
+}
+
+	private static void copyAll(InputStream is, OutputStream os) throws IOException {
+	
+		byte[] buf = new byte[1024];
+		for (;;) {
+			int len = is.read(buf);
+			if (len < 0) {
+				break;
+			}
+			os.write(buf, 0, len);
+		}
+	
+}
+
+	public static String getExceptionStackTrace(Throwable e) {
+		StringWriter swr = new StringWriter();
+		PrintWriter pwr = new PrintWriter(swr);
+		
+		e.printStackTrace(pwr);
+		
+		pwr.close();
+		try {
+			swr.close();
+		}
+		catch (IOException localIOException) {}
+		return swr.getBuffer().toString();
+	}
+	
+}
